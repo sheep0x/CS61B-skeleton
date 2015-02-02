@@ -6,7 +6,7 @@ public class EquationList {
     public int result;
 
     /**
-     * Example of how EquationLists work: this list has two stored equations. 
+     * Example of how EquationLists work: this list has two stored equations.
      * +-------------------+    +-------------------+
      * | EquationList      |    | EquationList      |
      * +-------------------+    +-------------------+

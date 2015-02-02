@@ -27,7 +27,7 @@ print('Looking for ' + jarfile + ' in all directories that are *ed.')
 folders = classpath.split(':')
 found = False
 
-for folder in folders:	
+for folder in folders:
 	if len(folder) == 0:
 		continue
 
@@ -35,7 +35,7 @@ for folder in folders:
 		folder = folder[:-1]
 		print('Checking: ' + folder)
 
-		if os.path.isdir(folder):			
+		if os.path.isdir(folder):
 			files = os.listdir(folder)
 			if jarfile not in files:
 				print("         " + jarfile + " not found.")

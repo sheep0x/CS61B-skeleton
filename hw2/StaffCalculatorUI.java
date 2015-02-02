@@ -10,7 +10,7 @@ public class StaffCalculatorUI {
             switch(firstInput) {
                 case "quit": return;
                 case "dump": c.printAllHistory(); break;
-                case "history": 
+                case "history":
                     int count = StdIn.readInt();
                     c.printHistory(count);
                     break;
@@ -18,7 +18,7 @@ public class StaffCalculatorUI {
                 case "clear": c.clearHistory(); break;
                 case "sum": System.out.println(c.cumulativeSum()); break;
                 case "product": System.out.println(c.cumulativeProduct()); break;
-                default:          
+                default:
                     int x = Integer.parseInt(firstInput);
                     String operation = StdIn.readString();
                     int y = StdIn.readInt();
